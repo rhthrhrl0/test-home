@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  /*고딕체라는 것을 같이 명시해야함. Noto Sans KR 자체가 고딕체임*/
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  /*기본적으로 400. 키워드로는 Normal*/
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
